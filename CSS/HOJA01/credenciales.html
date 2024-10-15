@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Credenciales</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de registro</h1>
+        <div class="sub-tittle">
+            <h1>CREA UNA CUENTA</h1>
+            <form name="form" action="autenticar.php" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" placeholder="Apellidos">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="email">
+                <br>
+                <label for="DNI">DNI:</label>
+                <input type="text" id="DNI" placeholder="DNI">
+                <label for="telefono">Telefono</label> 
+                <input type="text" id="telefono" placeholder="Telefono">
+                <br>
+                <label for="contrasenia">Contraseña</label>
+                <input type="password" id="contrasenia">
+                <label for="repcontrasenia">Repetir contraseña</label>
+                <input type="password" id="repcontrasenia">
+                <br>
+                <input type="submit" name="registar" value="Registrar">
+                <p>¿Ya tienes cuenta?<a href="">Accede aquí</a></p>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

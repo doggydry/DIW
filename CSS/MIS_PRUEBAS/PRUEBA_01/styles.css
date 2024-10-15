@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+th {
+    background-color: lightblue;
+    margin: 0px;
+    padding: auto;
+    text-align: center;
+}
+td {
+    background-color: lightgreen;
+    text-align: center;
+}
+th:hover{
+    background-color: rgb(138, 180, 194);
+    cursor: cell;
+}
+td:hover{
+    background-color: rgb(100, 196, 100);
+    cursor: pointer;
+}
