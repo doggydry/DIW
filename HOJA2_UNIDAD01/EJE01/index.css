@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**Cambiar el color del titulo del header*/
+header h1 {
+    color: blue;
+    text-align: center;
+}
+
+/**Estilizar los enlaces de leer más. Fondo destacado y cambiar el color al pasar el ratón sobre ellos*/
+
+.leer-mas {
+    text-decoration: none;
+    background-color: rgb(44, 199, 147);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.leer-mas:hover {
+    background-color: rgb(23, 184, 130);
+}
+
+nav ul li a,
+.articulos ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+/**j*/
+.barra-lateral>ul>li {
+    font-style: italic;
+}
+
+/**k*/
+nav>ul>li:hover {
+    background-color: #a79e9e;
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+/**l*/
+form>fieldset {
+    border: 3px dotted #000000;
+}
+
+/**m*/
+.articulos article+article {
+    background-color: rgb(202, 199, 199);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/**n*/
+form input+label {
+    font-weight: bold;
+}
+
+label input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+/**p*/
+footer a:hover {
+    font-size: 1.2em;
+
+}
+
+footer a [href^="mailto:"] {
+    font-size: 1.2em;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: lightgreen;
+}
+
+aside ul li strong {
+    font-weight: bold;
+    color: red;
+}
