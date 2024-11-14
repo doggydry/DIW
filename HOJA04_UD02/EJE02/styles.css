@@ -1,0 +1,23 @@
+ul
+{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+
+}
+
+li
+{
+    flex:1;
+    padding: 8px;
+    background-color: rgb(136, 75, 0);
+
+}
+ul a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
