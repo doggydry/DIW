@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+}
+
+#contenedor{
+    display: flex;
+    gap: 2px;
+    height: 100vh;
+}
+
+div>div {
+    padding: 12px;
+}
+
+#caja1{
+    flex:1;
+    background-color: antiquewhite;
+}
+
+#caja2{
+    flex:2;
+    background-color: aquamarine;
+}
