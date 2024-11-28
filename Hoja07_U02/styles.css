@@ -1,0 +1,14 @@
+.cabecera{
+    background-color: #e7ffe4;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-columns: auto 1fr auto;
+}
+footer{
+    background-color: #008b07;
+}
+
+.articulos{
+    background-color: grey;
+    flex-direction: row;
+}
