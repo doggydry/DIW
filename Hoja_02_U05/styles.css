@@ -1,0 +1,84 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecera {
+    background-image: url(./img/banner-949946_1280.jpg);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: end;
+}
+
+.cabecera ul,
+li {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.cabecera a {
+    text-decoration: none;
+    color: white;
+}
+
+.article1 {
+    grid-area: article1;
+}
+
+.article2 {
+    grid-area: article2;
+}
+
+.article3 {
+    grid-area: article3;
+}
+
+.article4 {
+    grid-area: article4;
+}
+
+main {
+    grid-area: main;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: "main main"
+        "footer footer"
+    ;
+}
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+article{
+    width: 490px;
+}
+footer {
+    grid-area: footer;
+}
+form {
+    background-color: aqua;
+    display: flex;
+    justify-content: row;
+    width: 100%;
+    
+}
+form input{
+border-radius: 5px;
+border: none;
+padding: 5px;
+}
+form label{
+    padding: 10px;
+}
