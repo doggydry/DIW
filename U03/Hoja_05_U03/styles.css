@@ -1,0 +1,139 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #6b8e23, #8fbc8f, #2e8b57, #556b2f, #3cb371);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: header-colors 15s infinite;
+}
+
+@keyframes header-colors {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e6ffe6;
+}
+
+.galeria {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.fila {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.fila-imagenes img,
+.fila-videos video {
+    width: 80%;  
+    max-width: 500px; 
+    height: auto;
+    margin: 10px auto; 
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.fila-imagenes img:hover,
+.fila-videos video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.anim-grow {
+    animation: grow 2s infinite alternate;
+}
+
+@keyframes grow {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+.anim-rotate {
+    animation: rotate 3s infinite alternate;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(10deg); }
+}
+
+.anim-fade {
+    animation: fade 3s infinite alternate;
+}
+
+@keyframes fade {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.anim-border {
+    animation: border-change 2s infinite alternate;
+}
+
+@keyframes border-change {
+    from { border-radius: 0; }
+    to { border-radius: 50%; }
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .redes a {
+    color: #8fbc8f;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer .redes a:hover {
+    color: #3cb371;
+}
+
+footer .volver-arriba {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .volver-arriba:hover {
+    color: #f0e68c;
+}

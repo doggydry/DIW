@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.texto-container{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boton{
+    border-radius:20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    animation: boton_animado 2s ease-in-out alternate forwards; 
+}
+#texto{
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    opacity: 0;
+    animation: aparecer 1s ease-in 3s alternate forwards, rojo 1s linear 4s 1 normal forwards;
+}
+@keyframes boton_animado {
+    0%, 25%{
+        width: 60px;
+        height: 60px;
+    }
+    50%{
+        width: 60px;
+        height: 240px;
+    }
+    100%{
+        width: 480px;
+        height: 240px;
+    }
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rojo {
+    0%{
+        color: white;
+    }
+    100%{
+        color: red;
+    }
+
+}
