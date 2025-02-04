@@ -15,5 +15,4 @@ document.addEventListener("DOMContentLoaded",function(){
         estado.textContent = "Tecla liberada"
         estado.style.color = "red"
     })
-    
 });

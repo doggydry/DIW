@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+#info{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid lightblue;
+    background-color: azure;
+    box-shadow: 2px 2px 2px rgb();
+}
+p{
+    font-size: 18px;
+}
+span{
+    font-weight: bold;
+    color: rgb(190,7,7);
+}
+#texto{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
